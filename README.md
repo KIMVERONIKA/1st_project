@@ -20,7 +20,7 @@ The project consists of parts:
 
 -Evaluation Results
 
-We used the:
+In the model for training the model we used as :
 
 KNeighborsRegressor,
 
