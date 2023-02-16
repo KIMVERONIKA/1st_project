@@ -19,3 +19,15 @@ The project consists of parts:
 -Training model,
 
 -Evaluation Results
+
+We used the:
+
+KNeighborsRegressor,
+
+LinearRegression,
+
+Lasso, 
+
+XGBRegressor,
+
+SVR
