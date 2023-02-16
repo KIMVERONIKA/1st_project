@@ -1,4 +1,4 @@
-# 1st_project Data-HousePrice Predicting House Prices Regression
+# 1st_team_project Data-HousePrice Predicting House Prices Regression
 
 Predicting House Prices with Machine Learning. We find the variable that affects the price of a house. Creating a linear model quantitatively related to the house price with variables like areas, number of rooms and bathroom, etc.
 
