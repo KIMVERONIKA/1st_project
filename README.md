@@ -11,20 +11,19 @@ To know the accuracy of the model, i.e. how well these variables can predict hou
 We worked independently for 1,5month for our 1st_team project to extract, clean, analyze, visualize, create pipeline and fit house price data.
 
 ## Data
-It contains 1460 training data points and 81 features that might help us predict the selling price of a house.
-The project consists of parts:
+Use housing dataset. It contains 1460 training data points and 81 features that might help us predict the selling price of a house.
 
 ## Tools Used
 
-MeanMedianImputer
-CategoricalImputer
-RareLabelEncoder
-EqualWidthDiscretiser
-OneHotEncoder
-SklearnTransformerWrapper
-DropConstantFeatures
-SmartCorrelatedSelection
-StandardScaler
+Mean Median Imputer
+Categorical Imputer
+RareLabel Encoder
+EqualWidth Discretiser
+One Hot Encoder
+Sklearn TransformerWrapper
+Drop Constant Features
+Smart Correlated Selection
+Standard Scaler
 
 
 ## Models Used
@@ -38,3 +37,10 @@ Lasso,
 XGB Regression,
 
 Support Vector Regression
+
+## Code 
+
+Code for this project can be found here:
+
+## Results
+We did data analysis, found empty values, replaced them, replaced the numerical and categorical values, encoded, found correlating variables, created a pipeline, and trained regression models. The best SVR model the results is train set score 97% and test 86%.
