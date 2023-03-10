@@ -1,33 +1,40 @@
 # 1st_team_project Data-HousePrice Predicting House Prices Regression
 
-Predicting House Prices with Machine Learning. We find the variable that affects the price of a house. Creating a linear model quantitatively related to the house price with variables like areas, number of rooms and bathroom, etc.  It contains 1460 training data points and 81 features that might help us predict the selling price of a house.
+## Objective/Goal
+To identify the variables affecting house prices, e.g. area, number of rooms, bathrooms, etc.
 
+To create a linear model that quantitatively relates house prices with variables such as number of rooms, area, number of bathrooms, etc.
+
+To know the accuracy of the model, i.e. how well these variables can predict house prices.
+
+## Role
+We worked independently for 1,5month for our 1st_team project to extract, clean, analyze, visualize, create pipeline and fit house price data.
+
+## Data
+It contains 1460 training data points and 81 features that might help us predict the selling price of a house.
 The project consists of parts:
 
--Introduction
+## Tools Used
 
--Data Analysis,
+MeanMedianImputer
+CategoricalImputer
+RareLabelEncoder
+EqualWidthDiscretiser
+OneHotEncoder
+SklearnTransformerWrapper
+DropConstantFeatures
+SmartCorrelatedSelection
+StandardScaler
 
--Missing Data Imputation,
 
--Encoding,
+## Models Used
 
--Discretization,
+KNeighbors Regression,
 
--Scaling,
-
--Training model,
-
--Evaluation Results
-
-In the model for training the model we used as :
-
-KNeighborsRegressor,
-
-LinearRegression,
+Linear Regression,
 
 Lasso, 
 
-XGBRegressor,
+XGB Regression,
 
-SVR
+Support Vector Regression
