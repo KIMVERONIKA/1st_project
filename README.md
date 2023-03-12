@@ -40,7 +40,7 @@ Support Vector Regression
 
 ## Code 
 
-Code for this project can be found here:
+Code for this project can be found here: https://github.com/KIMVERONIKA/House_Price/blob/main/Final%20house%20price.ipynb
 
 ## Results
 We did data analysis, found empty values, replaced them, replaced the numerical and categorical values, encoded, found correlating variables, created a pipeline, and trained regression models. The best SVR model the results is train set score 97% and test 86%.
